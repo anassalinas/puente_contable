@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "usuarios": {
+      "title": "Usuarios",
+      "description": "Datos de perfil de los usuarios",
+      "type": "object",
+      "properties": {
+        "nombre": { "type": "string" },
+        "RFC": { "type": "string" },
+        "correo": { "type": "string" },
+        "telefono": { "type": "string" },
+        "tipoPerfil": { "type": "string", "enum": ["PersonaFisica", "PyME", "Admin"] },
+        "fechaRegistro": { "type": "string", "format": "date-time" }
+      },
+      "required": ["nombre", "correo", "tipoPerfil"]
+    },
+    "medicos": {
+      "title": "Médicos",
+      "description": "Directorio de médicos",
+      "type": "object",
+      "properties": {
+        "nombre": { "type": "string" },
+        "especialidad": { "type": "string" },
+        "correo": { "type": "string" },
+        "telefono": { "type": "string" },
+        "encargado": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "correoFacturacion": { "type": "string" },
+        "plazoRecordatorio": { "type": "string" }
+      }
+    },
+    "proveedores": {
+      "title": "Proveedores",
+      "description": "Directorio de proveedores PyME",
+      "type": "object",
+      "properties": {
+        "nombre": { "type": "string" },
+        "rfc": { "type": "string" },
+        "giro": { "type": "string" },
+        "contacto": { "type": "string" },
+        "telefono": { "type": "string" },
+        "correo": { "type": "string" }
+      }
+    },
+    "facturas": {
+      "title": "Facturas",
+      "description": "Comprobantes fiscales CFDI",
+      "type": "object",
+      "properties": {
+        "folio": { "type": "string" },
+        "emisor": { "type": "string" },
+        "date": { "type": "string" },
+        "monto": { "type": "string" },
+        "uso": { "type": "string" },
+        "status": { "type": "string" },
+        "metodoPago": { "type": "string" },
+        "userId": { "type": "string" },
+        "medicoId": { "type": "string" },
+        "proveedorId": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "/usuarios": { "schema": "usuarios", "description": "Colección de usuarios" },
+    "/medicos": { "schema": "medicos", "description": "Colección de médicos" },
+    "/proveedores": { "schema": "proveedores", "description": "Colección de proveedores" },
+    "/facturas": { "schema": "facturas", "description": "Colección de facturas" }
+  }
+}

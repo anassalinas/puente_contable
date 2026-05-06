@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Puente Contable 3.5",
+  "description": "Plataforma de gestión fiscal inteligente para México (Demo Interactivo)",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

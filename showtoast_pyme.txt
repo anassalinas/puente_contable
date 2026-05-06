@@ -1,0 +1,45 @@
+413:              <button onClick={() => showToast('Generando plantilla de reporte de gastos...')} className="p-2 bg-gray-50 hover:bg-gray-100 rounded-xl transition-colors">
+476:  const { showToast } = useAppContext();
+544:    showToast("✓ Proveedor eliminado exitosamente");
+550:      showToast("✓ Proveedor actualizado");
+560:      showToast("✓ Proveedor guardado");
+792:  const { showToast } = useAppContext();
+825:                   <p className="text-xs font-mono text-gray-500 mt-1 cursor-pointer hover:text-secondary transition-colors" onClick={() => showToast("UUID Copiado")}>112-A88-XYZE</p>
+916:  const { showToast } = useAppContext();
+937:      showToast('⚠ Este proveedor ya tiene registrado el pago actual.');
+944:      showToast('✓ Pago de la última operación encolado; saldo actualizado');
+1027:                    showToast("✓ Datos de contacto actualizados");
+1144:  const { showToast } = useAppContext();
+1165:    showToast(`✓ Acción iniciada: ${label}`);
+1290:               onClick={() => { setActiveStep('menu'); showToast("✓ Llamada finalizada"); }}
+1303:  const { showToast } = useAppContext();
+1413:            showToast("✓ CFDI procesado y validado exitosamente");
+1559:  const { showToast } = useAppContext();
+1696:                   onClick={() => showToast("Descargando XML...")}
+1702:                    onClick={() => showToast("Generando PDF...")}
+1717:  const { showToast } = useAppContext();
+1745:            showToast("✓ CFDI timbrado exitosamente");
+1988:                  onClick={() => { setShowResult(false); showToast("✓ Enviado por correo"); }}
+2003:  const { showToast } = useAppContext();
+2012:      showToast("✓ Paquete listo (CFDI_2026_Marzo.zip - 2.4 MB)");
+2113:                 onClick={() => showToast("✓ Descargando archivo...")}
+2127:  const { showToast } = useAppContext();
+2154:            showToast("✓ 3 recibos timbrados — Total neto: $38,450.00");
+2273:  const { showToast } = useAppContext();
+2414:                           showToast(`✓ Obligación marcada como cumplida`);
+2423:                           showToast(`✓ Recordatorio configurado`);
+2452:               onClick={() => showToast('✓ Avisos y recordatorios sincronizados con el calendario')}
+2464:  const { showToast } = useAppContext();
+2477:      showToast("✓ Layout DIOT (.txt) generado correctamente");
+2581:  const { showToast } = useAppContext();
+2602:    showToast("✓ Emparejamiento manual realizado");
+2613:      showToast("✓ Conciliación completada — 2 inconsistencias detectadas");
+2738:  const { showToast } = useAppContext();
+2749:      showToast('✓ Escaneo de inconsistencias actualizado');
+2807:    showToast(`✓ Alerta #${id} marcada como resuelta`);
+2812:    showToast(`⚠ Alerta #${id} será ignorada temporalmente`);
+3035:                    showToast("✓ Correo enviado al contacto.");
+3354:  const { showToast } = useAppContext();
+3670:                    showToast("✓ Llamada finalizada con éxito");
+3730:                    showToast("✓ Propuesta enviada al despacho");
+3793:                    showToast("✓ Mensaje enviado correctamente");
