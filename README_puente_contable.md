@@ -354,16 +354,13 @@ Adaptamos las métricas del documento original (orientadas a Machine Learning) a
 
 | Integrante | Rol | Contribución principal |
 |---|---|---|
-| [Nombre 1] | Project Lead | Definición de scope, justificación, cierre |
-| [Nombre 2] | Tech Lead | Arquitectura, integración Gemini y Firebase |
-| [Nombre 3] | Frontend & Demo | Módulo Persona Física, demo en vivo |
-| [Nombre 4] | Backend & Métricas | Módulo PyME, análisis de resultados |
-| [Nombre 5] | Documentation Lead | README, informe técnico, lecciones |
+| Mia Meza | Project Lead | Definición de scope, justificación, cierre |
+| Mayela Peña | Tech Lead | Arquitectura, integración Gemini y Firebase |
+| Juliana Guzmán | Frontend & Demo | Módulo Persona Física y PyMES, demo en vivo |
+| Ana Salinas | Documentation Lead | README, informe técnico, lecciones |
 
-**Materia**: [Nombre de la materia]
-**Profesor/a**: [Nombre del profesor]
-**Ciclo escolar**: 2026
-**Universidad**: [Nombre de la universidad]
+**Materia**: Finanzas Computacionales
+**Universidad**: Universidad de Monterrey
 
 ---
 
